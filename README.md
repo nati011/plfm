@@ -31,10 +31,11 @@ PLFM should be easy to adapt to whatever personal finance workflow you actually 
 
 Examples of plugins and extensions:
 
-- **SMS parsers** for different banks, mobile money providers, or payment services.
-- **Categorization rules** that tag transactions by merchant, sender, amount, or message pattern.
-- **Budgeting rules** for limits, envelopes, recurring expenses, and savings goals.
-- **AI tools** built on top of your own financial data.
+- **Custom reports** for purchase prep, monthly reviews, category breakdowns, cash-flow summaries, or account-specific audits.
+- **AI tools** that answer questions about your finances, explain spending patterns, summarize a month, suggest categories, or help write new rules from your own data.
+- **Exporters** that turn PLFM records into CSV, spreadsheets, plain text accounting files, dashboard inputs, or long-term backup formats.
+- **Notifications** for unusual spending, low balances, duplicate charges, large transactions, upcoming bills, or recurring payments that did not happen.
+- **Integrations** with local scripts, GitHub backups, note-taking systems, personal dashboards, accounting tools, or any other workflow you want PLFM to feed.
 
 ## Components
 
@@ -44,7 +45,8 @@ Examples of plugins and extensions:
 
 ## Motivation
 
-Similar tools often make two tradeoffs that PLFM tries to avoid: they store sensitive financial data on someone else's server, and they stop at lightweight budgeting instead of becoming powerful enough for serious personal accounting.
+From my observation, personal finance tools tend to fall into one of two camps: polished products and mobile apps that keep your financial data on someone else's server, or serious CLI tools like [ledger-cli](https://ledger-cli.org/) that are powerful but can feel rigid and difficult to extend around your own needs.
 
-PLFM is not trying to be a polished product first. It is a personal system for owning the data, understanding it better, and experimenting with finance tools that can grow beyond simple spending charts.
-# plfm
+PLFM tries to bridge that gap. It aims to keep the privacy and control of local-first tooling while still leaving room for a friendlier client, automatic data capture, extensibility, and more serious personal accounting.
+
+It is not trying to be a polished product first. It is a personal system for owning the data, understanding it better, and experimenting with finance tools that can grow beyond simple spending charts.
