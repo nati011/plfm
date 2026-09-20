@@ -47,3 +47,4 @@ Examples of plugins and extensions:
 Similar tools often make two tradeoffs that PLFM tries to avoid: they store sensitive financial data on someone else's server, and they stop at lightweight budgeting instead of becoming powerful enough for serious personal accounting.
 
 PLFM is not trying to be a polished product first. It is a personal system for owning the data, understanding it better, and experimenting with finance tools that can grow beyond simple spending charts.
+# plfm
